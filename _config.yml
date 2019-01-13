@@ -1,6 +1,5 @@
-title: KEY DISTRIBUTION IN CLIENT SIDE ON MULTI USER
-       ENCRYPTED DATA IN CLOUD ENVIRONMENT
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Key Distribution in Client Side on Multi User Encrypted Data in Cloud Environment
+description: Project about Key Distribution in Client Side on Multi User Encrypted Data in Cloud Environment
 
 url: https://github.com/ibrahimsenan/ibrahimsenan.github.io
 baseurl: ""
@@ -17,13 +16,13 @@ navigation:
    url: /index.html
  - title: Documentation
    url: /about
- - title: Future Work
-   url: /contact
+# - title: Future Work
+#   url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: ibrahimsenan
+   twitter: ibrahim.senan
+   facebook: ibrahimsenan
+   email: ibrahimsenan3@gmail.com
 
 google_analytics: "UA-58263416-1"
