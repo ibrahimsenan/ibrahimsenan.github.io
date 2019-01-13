@@ -1,56 +1,21 @@
 ---
 layout: post
-title:  "Example Post Formatting"
-date:   2014-12-15
-description: This is a post description for meta purposes. This is also the excerpt of the article that shows up on the index/home page. Change this in the post YAML.
+title:  "Abstract"
+date:   2019-01-05
+description: Database outsourcing is becoming increasingly popular introducing a new paradigm, called
+             database-as-a-service (DAS), where an organization’s database is stored at an external service
+             provider. In such a scenario, security represented by data encryption, crypto key, and access
+             control are very important issues, especially if the data owner wishes to publish his data for
+             external use.
 ---
 
-<p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>
+Database outsourcing is becoming increasingly popular introducing a new paradigm, called
+                                                            database-as-a-service (DAS), where an organization’s database is stored at an external service
+                                                            provider. In such a scenario, security represented by data encryption, crypto key, and access
+                                                            control are very important issues, especially if the data owner wishes to publish his data for
+                                                            external use.
 
-# Heading 1
+In this, first I present some approaches for the implementation of encrypting/decrypting data with less time and resources consuming also an implementation of access control through selective encryption on the client side in a cloud environment. The focus of this paper is that the presentation
+of the project results, which demonstrate the applicability of my proposal. Companies need new mechanisms to control access to the outsourced data and allow users to query the encrypted data without revealing sensitive information to the cloud provider. I will introduce methodologies used on the data stored in the cloud server (Backend), where any administrative actions (such as updating access rights or adding/deleting users) do not require re-distributing keys or re-encryption of data.
 
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-<blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
-
-Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-## Unordered List
-* List Item
-* Longer List Item
-  * Nested List Item
-  * Nested Item
-* List Item
-
-## Ordered List
-1. List Item
-2. Longer List Item
-    1. Nested OL Item
-    2. Another Nested Item
-3. List Item
-
-## Definition List
-<dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl>
-
-Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum.
-
-Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-
-Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+In another word, cryptographic solutions refer to protection, storage, back up and administration of cryptographic keys is the key management. Encryption techniques ensure the confidentiality of data, if and only if, encryption/decryption keys are accessible only to authorized entities. Therefore, the cryptographic keys used for encryption of data should be protected from malicious administrators or software hackers in an untrusted third-party service environment like public cloud databases. The problem is that a single enterprise may end up using several different and possibly incompatible encryption algorithms to protect sensitive data. Subsequently, huge numbers of cryptographic keys are generated which those in turn needed to be protected and used efficiently also the size of the encrypted data increasing depending on the key size which consuming big storage in the cloud database.
