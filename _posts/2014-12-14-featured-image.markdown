@@ -3,6 +3,9 @@ layout: post
 title:  "Proposed solution"
 date:   2019-01-05
 image: touring.jpg
+description: These stored key related issues and finding a solution for decreasing cryptographic
+             operations, in this dissertation, we proposing a system with a solution for managing users’ crypto
+             keys and control access to the resources in an application called CareBud.
 ---
 
 These stored key related issues and finding a solution for decreasing cryptographic

@@ -4,9 +4,7 @@ title:  "Abstract"
 date:   2019-01-05
 description: Database outsourcing is becoming increasingly popular introducing a new paradigm, called
              database-as-a-service (DAS), where an organization’s database is stored at an external service
-             provider. In such a scenario, security represented by data encryption, crypto key, and access
-             control are very important issues, especially if the data owner wishes to publish his data for
-             external use.
+             provider.
 ---
 
 Database outsourcing is becoming increasingly popular introducing a new paradigm, called
