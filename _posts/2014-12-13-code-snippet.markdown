@@ -1,25 +1,28 @@
 ---
 layout: post
 title:  "CareBud Architecture"
-date:   2014-12-13
+date:   2019-01-05
 image: CB.arch.png
 ---
 
-<p class="intro"><span class="dropcap">Y</span>ou'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes! To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+CareBud is an application that helps patients and older peoples to be connected to there doctors, also monitored by there family members. Which will be monitored by a SmartWatch attached to the patient and transmitting data and reports such as (Body Temperature, Heartbeat, and Blood Preusser) to CareBud app. 
+Thereafter the application will process it (Analysis, Report, and Encrypt) and it will transmit that data as encrypted data and store it in CareBud Backend(Aws Cloud).
 
-Jekyll also offers powerful support for code snippets:
+###Common terms used in this section
 
-image: CB.arch.png
+- **CareBud App**: App designed to manage all user’s data which include and performs all required processes in the client side such as (Encryption, Decryption, Key management, Access Control, Users Account Management and Sending, and Receiving data from Could Backend).
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- **CareBud Backend**: is Ubuntu server that hold database server MongoDB NonSql Database for creating, updating, and delete user encrypted data using RESTful APIs.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+- **AWS Cloud**: Amazon Web Services EC2 Cloud service used to hold Ubuntu server and CareBad backend which provided by AWS.
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+- **RESTful APIs**: Representational State Transfer is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.
+
+- **Smart Watch (Virtual Smart Watch)**: is virtual smartwatch created to simulate data coming or reported from patients’ body and provided to CareBud App which will check patient health status and sending Json data every ten seconds.
+
+
+###User Entities used in this Project
+
+- **Patient**: (P1) is the main aspect in this project and he/she has an account that contain specific diagnosis and health reports that been taken by virtual smart watch and other reports are provided by the patient himself.
+- **Doctor**: (D1) Doctor is responsible to watch patient health reports status, he/she will be notified if their critical reports and it can interact with patient totally and give his diagnosis on that health reports also sharing doctor advises.
+- **Relatives**: (R1) an entity related to patient which play if the patient want one of his family members to be reported with his health reports.
