@@ -15,7 +15,7 @@ navigation:
  - title: Home
    url: /index.html
  - title: Documentation
-   url: /about
+   url: https://carebud.gitbook.io/project/
 # - title: Future Work
 #   url: /contact
 
